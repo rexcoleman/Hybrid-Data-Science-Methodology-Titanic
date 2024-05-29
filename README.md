@@ -4,9 +4,9 @@
 
 Welcome to my Framework for Solving Data Science Problems repository. This repository showcases a project that not only demonstrates my data science skills but also outlines a comprehensive framework for solving data science problems. The project is inspired by one of the most popular notebooks on Kaggle, leveraging best-in-class methodologies to create a reliable foundation for solving data science problems. By reproducing this work, I aim to illustrate the value of learning from top practitioners while also solving one of the most important problems in data science.
 
-Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost and outcomes reliability. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
+Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost, and outcomes reliability. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
 
-The project is appliec to the popular "Titanic - Machine Learning from Disaster" Kaggle competition.  
+The project is applied to the popular "Titanic - Machine Learning from Disaster" Kaggle competition.
 
 Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.
 
@@ -31,6 +31,7 @@ Thank you for visiting my repository. I hope this project inspires you to implem
 ## Introduction
 
 The motivation behind this project is twofold:
+
 1. **Learning from the Best**: By reproducing work from top data scientists, we can gain valuable insights and understand the methodologies that lead to successful projects.
 2. **Framework Development**: Creating a robust framework for data science projects that can be applied to various datasets and problems, ensuring a structured approach to avoid common pitfalls.
 
@@ -85,7 +86,9 @@ Rushing into a data science project without a structured approach can lead to nu
 
 By addressing these issues through a structured approach, as demonstrated in this project, we can significantly improve the quality and reliability of data science outcomes. This framework serves as a guide for tackling data science projects methodically and effectively.
 
-### Titanic Problem Statement
+---
+
+## Titanic Problem Statement
 
 The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 
@@ -93,17 +96,26 @@ The competition is simple: use machine learning to create a model that predicts 
 
 ## Data Science Framework
 
-The framework used in this project includes:
-1. **Problem Understanding**
-2. **Data Collection and Exploration**
-3. **Data Cleaning and Preprocessing**
-4. **Feature Engineering**
-5. **Model Selection and Training**
-6. **Model Evaluation and Validation**
-7. **Hyperparameter Tuning**
-8. **Results Interpretation**
-9. **Model Deployment (if applicable)**
-10. **Documentation and Reporting**
+### Define the Problem
+If data science, big data, machine learning, predictive analytics, business intelligence, or any other buzzword is the solution, then what is the problem? Problems should precede requirements, requirements should precede solutions, solutions should precede design, and design should precede technology.
+
+### Gather the Data
+Chances are, the dataset(s) already exist somewhere. It may be external or internal, structured or unstructured, static or streamed, objective or subjective. The goal is to find and consolidate these datasets.
+
+### Prepare Data for Consumption
+Data wrangling is a required process to turn “wild” data into “manageable” data. This includes data extraction, data cleaning, and preparing data for analysis by implementing data architectures, developing data governance standards, and ensuring data quality.
+
+### Perform Exploratory Analysis
+Deploy descriptive and graphical statistics to look for potential problems, patterns, classifications, correlations, and comparisons in the dataset. Data categorization is also important to select the correct hypothesis test or data model.
+
+### Model Data
+Data modeling can either summarize the data or predict future outcomes. The dataset and expected results determine the algorithms available for use. Algorithms are tools that must be selected appropriately for the job.
+
+### Validate and Implement Data Model
+Test your model to ensure it hasn't overfit or underfit your dataset. Determine if your model generalizes well by validating it with a subset of data not used during training.
+
+### Optimize and Strategize
+Iterate through the process to make the model better. As a data scientist, your strategy should be to focus on recommendations and design while outsourcing developer operations and application plumbing.
 
 ---
 
