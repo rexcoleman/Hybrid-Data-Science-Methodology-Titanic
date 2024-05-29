@@ -107,7 +107,8 @@ Deploy descriptive and graphical statistics to look for potential problems, patt
 5. ### Model Data
 Data modeling can either summarize the data or predict future outcomes. The dataset and expected results determine the algorithms available for use. Algorithms are tools that must be selected appropriately for the job.
 
-Included generalized framework for model selction. Used the following models relevant to this problem: 
+Included generalized framework for model selction. Created baseline with simple back-of-the-envelope decision tree and ran the following models relevant to this problem: 
+
 MLA = [
     # Ensemble Methods
     ensemble.AdaBoostClassifier(),
@@ -152,6 +153,8 @@ MLA = [
 
 6. ### Validate and Implement Data Model
 Test your model to ensure it hasn't overfit or underfit your dataset. Determine if your model generalizes well by validating it with a subset of data not used during training.
+
+Used hyperparmmeter tuning and model ensembling to improve performance.
 
 7. ### Optimize and Strategize
 Iterate through the process to make the model better. As a data scientist, your strategy should be to focus on recommendations and design while outsourcing developer operations and application plumbing.
