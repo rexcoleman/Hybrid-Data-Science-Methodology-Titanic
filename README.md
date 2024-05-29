@@ -104,7 +104,7 @@ Chances are, the dataset(s) already exist somewhere. It may be external or inter
 ### Prepare Data for Consumption
 Data wrangling is a required process to turn “wild” data into “manageable” data. This includes data extraction, data cleaning, and preparing data for analysis by implementing data architectures, developing data governance standards, and ensuring data quality.
 
-### Perform Exploratory Analysis
+### Perform Exploratory Data Analysis
 Deploy descriptive and graphical statistics to look for potential problems, patterns, classifications, correlations, and comparisons in the dataset. Data categorization is also important to select the correct hypothesis test or data model.
 
 ### Model Data
