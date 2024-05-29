@@ -121,10 +121,7 @@ Iterate through the process to make the model better. As a data scientist, your 
 
 ---
 
-## Code and Resources Used
 
-- **Python Version**: 3.10.13
-- **Packages**: pandas, numpy, sklearn, scipy, matplotlib, seaborn, itertools, graphviz, os, sys, IPython, random, time, xgboost
 
 
 ---
@@ -149,8 +146,8 @@ While reproducing work might seem like copying, it is important to recognize the
 
 ## Technologies Used
 
-- **Programming Languages**: Python
-- **Libraries**: Pandas, NumPy, Scikit-Learn, TensorFlow, Keras, Matplotlib, Seaborn
+- **Programming Languages**: Python version 3.10.13
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, itertools, Graphviz, os, sys, IPython, random, time, XGBoost
 - **Tools**: Jupyter Notebooks, Git, GitHub, Kaggle
 
 ---
