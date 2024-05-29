@@ -121,6 +121,12 @@ Iterate through the process to make the model better. As a data scientist, your 
 
 ---
 
+## Code and Resources Used
+
+
+
+---
+
 ## Reproducing Best-in-Class Work
 
 Reproducing high-quality work from leading data scientists provides several benefits:
