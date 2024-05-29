@@ -90,7 +90,7 @@ By addressing these issues through a structured approach, as demonstrated in thi
 
 ## Data Science Framework
 
-### Define the Problem
+1. ### Define the Problem
 If data science, big data, machine learning, predictive analytics, business intelligence, or any other buzzword is the solution, then what is the problem? Problems should precede requirements, requirements should precede solutions, solutions should precede design, and design should precede technology.
 
 ### Gather the Data
