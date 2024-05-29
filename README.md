@@ -99,11 +99,56 @@ Chances are, the dataset(s) already exist somewhere. It may be external or inter
 3. ### Prepare Data for Consumption
 Data wrangling is a required process to turn “wild” data into “manageable” data. This includes data extraction, data cleaning, and preparing data for analysis by implementing data architectures, developing data governance standards, and ensuring data quality.
 
+Used 4 C's od Data Cleaning: Correcting, Completing, Creating, Converting.
+
 4. ### Perform Exploratory Data Analysis
 Deploy descriptive and graphical statistics to look for potential problems, patterns, classifications, correlations, and comparisons in the dataset. Data categorization is also important to select the correct hypothesis test or data model.
 
 5. ### Model Data
 Data modeling can either summarize the data or predict future outcomes. The dataset and expected results determine the algorithms available for use. Algorithms are tools that must be selected appropriately for the job.
+
+Included generalized framework for model selction. Used the following models relevant to this problem: 
+MLA = [
+    # Ensemble Methods
+    ensemble.AdaBoostClassifier(),
+    ensemble.BaggingClassifier(),
+    ensemble.ExtraTreesClassifier(),
+    ensemble.GradientBoostingClassifier(),
+    ensemble.RandomForestClassifier(),
+    
+    # Gaussian Processes
+    gaussian_process.GaussianProcessClassifier(),
+    
+    # GLM
+    linear_model.LogisticRegressionCV(),
+    linear_model.PassiveAggressiveClassifier(),
+    linear_model.RidgeClassifierCV(),
+    linear_model.SGDClassifier(),
+    linear_model.Perceptron(),
+    
+    # Navies Bayes
+    naive_bayes.BernoulliNB(),
+    naive_bayes.GaussianNB(),
+    
+    # Nearest Neighbor
+    neighbors.KNeighborsClassifier(),
+    
+    # SVM
+    svm.SVC(probability=True, max_iter=10000),
+    svm.NuSVC(probability=True, max_iter=10000),
+    svm.LinearSVC(max_iter=10000),
+    
+    # Trees    
+    tree.DecisionTreeClassifier(),
+    tree.ExtraTreeClassifier(),
+    
+    # Discriminant Analysis
+    discriminant_analysis.LinearDiscriminantAnalysis(),
+    discriminant_analysis.QuadraticDiscriminantAnalysis(),
+    
+    # xgboost: http://xgboost.readthedocs.io/en/latest/model.html
+    XGBClassifier()    
+]
 
 6. ### Validate and Implement Data Model
 Test your model to ensure it hasn't overfit or underfit your dataset. Determine if your model generalizes well by validating it with a subset of data not used during training.
@@ -121,6 +166,7 @@ Iterate through the process to make the model better. As a data scientist, your 
 
 ---
 
+## Project Details
 
 
 
