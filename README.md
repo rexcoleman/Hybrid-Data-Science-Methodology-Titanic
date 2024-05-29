@@ -35,9 +35,9 @@ The motivation behind this project is twofold:
 1. **Learning from the Best**: By reproducing work from top data scientists, we can gain valuable insights and understand the methodologies that lead to successful projects.
 2. **Framework Development**: Creating a robust framework for data science projects that can be applied to various datasets and problems, ensuring a structured approach to avoid common pitfalls.
 
-Rushing into a data science project without a structured approach can lead to numerous problems, severely impacting the success, reliability, and cost of the outcomes. Below is an exhaustive list of these potential issues:
-
 ### Problems Related to Rushing into a Data Science Project
+
+Rushing into a data science project without a structured approach can lead to numerous problems, severely impacting the success, reliability, and cost of the outcomes. Below is an exhaustive list of these potential issues:
 
 1. **Inadequate Problem Understanding**:
    - Misalignment with business objectives.
