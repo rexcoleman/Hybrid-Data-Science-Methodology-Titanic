@@ -93,22 +93,22 @@ By addressing these issues through a structured approach, as demonstrated in thi
 1. ### Define the Problem
 If data science, big data, machine learning, predictive analytics, business intelligence, or any other buzzword is the solution, then what is the problem? Problems should precede requirements, requirements should precede solutions, solutions should precede design, and design should precede technology.
 
-### Gather the Data
+2. ### Gather the Data
 Chances are, the dataset(s) already exist somewhere. It may be external or internal, structured or unstructured, static or streamed, objective or subjective. The goal is to find and consolidate these datasets.
 
-### Prepare Data for Consumption
+3. ### Prepare Data for Consumption
 Data wrangling is a required process to turn “wild” data into “manageable” data. This includes data extraction, data cleaning, and preparing data for analysis by implementing data architectures, developing data governance standards, and ensuring data quality.
 
-### Perform Exploratory Data Analysis
+4. ### Perform Exploratory Data Analysis
 Deploy descriptive and graphical statistics to look for potential problems, patterns, classifications, correlations, and comparisons in the dataset. Data categorization is also important to select the correct hypothesis test or data model.
 
-### Model Data
+5. ### Model Data
 Data modeling can either summarize the data or predict future outcomes. The dataset and expected results determine the algorithms available for use. Algorithms are tools that must be selected appropriately for the job.
 
-### Validate and Implement Data Model
+6. ### Validate and Implement Data Model
 Test your model to ensure it hasn't overfit or underfit your dataset. Determine if your model generalizes well by validating it with a subset of data not used during training.
 
-### Optimize and Strategize
+7. ### Optimize and Strategize
 Iterate through the process to make the model better. As a data scientist, your strategy should be to focus on recommendations and design while outsourcing developer operations and application plumbing.
 
 ---
@@ -123,6 +123,8 @@ Iterate through the process to make the model better. As a data scientist, your 
 
 ## Code and Resources Used
 
+- **Python Version**: 3.10.13
+- **Packages**: pandas, numpy, sklearn, scipy, matplotlib, seaborn, itertools, graphviz, os, sys, IPython, random, time, xgboost
 
 
 ---
