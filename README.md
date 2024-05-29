@@ -83,7 +83,7 @@ Rushing into a data science project without a structured approach can lead to nu
     - Difficult for others to understand and reproduce the work.
     - Lack of transparency in methodologies and results.
 
-By addressing these issues through a structured approach, as demonstrated in this project, we can significantly improve the quality and reliability of data science outcomes. This framework, built upon the Kaggle Titanic competition, serves as a guide for tackling data science projects methodically and effectively.
+By addressing these issues through a structured approach, as demonstrated in this project, we can significantly improve the quality and reliability of data science outcomes. This framework serves as a guide for tackling data science projects methodically and effectively.
 
 ### Titanic Problem Statement
 
