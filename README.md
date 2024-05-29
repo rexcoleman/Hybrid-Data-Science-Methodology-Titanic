@@ -86,11 +86,10 @@ Rushing into a data science project without a structured approach can lead to nu
 
 By addressing these issues through a structured approach, as demonstrated in this project, we can significantly improve the quality and reliability of data science outcomes. This framework serves as a guide for tackling data science projects methodically and effectively.
 
----
+### Titanic Problem Statement
 
-## Titanic Problem Statement
-
-The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
+- **Dataset**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
+- **Objective**: The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 
 ---
 
