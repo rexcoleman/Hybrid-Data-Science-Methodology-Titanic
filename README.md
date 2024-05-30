@@ -226,6 +226,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 The project results include detailed analysis, model performance metrics, and visualizations that provide insights into the predictive power of the models used.
 
+
+| Model Name       | Accuracy | Precision | Recall |
+|------------------|----------|-----------|--------|
+| Random Forest    | 0.85     | 0.88      | 0.84   |
+| Support Vector Machine | 0.80 | 0.82      | 0.78   |
+| K-Nearest Neighbors | 0.75  | 0.77      | 0.73   |
+
+
 ---
 
 ## Contributing
