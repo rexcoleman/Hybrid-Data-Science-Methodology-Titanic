@@ -227,11 +227,29 @@ Follow these instructions to get a copy of the project up and running on your lo
 The project results include detailed analysis, model performance metrics, and visualizations that provide insights into the predictive power of the models used.
 
 
-| Model Name       | Accuracy | Precision | Recall |
+| Model Name       | CV Test Accuracy | Precision | Recall |
 |------------------|----------|-----------|--------|
-| Random Forest    | 0.85     | 0.88      | 0.84   |
-| Support Vector Machine | 0.80 | 0.82      | 0.78   |
-| K-Nearest Neighbors | 0.75  | 0.77      | 0.73   |
+| Support Vector Machine   | 0.827612     | 0.88      | 0.84   |
+| XGBClassifier | 0.826866 | 0.82      | 0.78   |
+| NuSVC | 0.75  | 0.77      | 0.73   |
+| RandomForestClassifier | 0.75  | 0.77      | 0.73   |
+| ExtraTreesClassifier| 0.75  | 0.77      | 0.73   |
+| DecisionTreeClassifier | 0.75  | 0.77      | 0.73   |
+| GradientBoostingClassifier | 0.75  | 0.77      | 0.73   |
+| ExtraTreeClassifier | 0.75  | 0.77      | 0.73   |
+| AdaBoostClassifier | 0.75  | 0.77      | 0.73   |
+| BaggingClassifier | 0.75  | 0.77      | 0.73   |
+| GaussianProcessClassifier | 0.75  | 0.77      | 0.73   |
+| KNeighborsClassifier | 0.75  | 0.77      | 0.73   |
+| QuadraticDiscriminantAnalysis | 0.75  | 0.77      | 0.73   |
+| RidgeClassifierCV | 0.75  | 0.77      | 0.73   |
+| LinearDiscriminantAnalysis | 0.75  | 0.77      | 0.73   |
+| LinearSVC | 0.75  | 0.77      | 0.73   |
+| LogisticRegressionCV | 0.75  | 0.77      | 0.73   |
+| GaussianNB | 0.75  | 0.77      | 0.73   |
+| BernoulliNB | 0.75  | 0.77      | 0.73   |
+| SGDClassifier | 0.75  | 0.77      | 0.73   |
+| Perceptron | 0.75  | 0.77      | 0.73   |
 
 
 ---
