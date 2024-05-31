@@ -2,13 +2,13 @@
 
 ## Executive Summary
 
-Welcome to my Framework for Solving Data Science Problems repository. This repository showcases a project that not only demonstrates my data science skills but also outlines a comprehensive framework for solving data science problems. The project is inspired by one of the most popular notebooks on Kaggle, leveraging best-in-class methodologies to create a reliable foundation for solving data science problems. By reproducing this work, I aim to illustrate the value of learning from top practitioners while also solving one of the most important problems in data science.
+Welcome to my Framework for Solving Data Science Problems repository. This repository showcases a project that not only demonstrates my data science skills but also outlines a comprehensive framework for solving data science problems. The project is inspired by one of the most popular notebooks on Kaggle, leveraging best-in-class methodologies to create a reliable foundation for solving data science problems. By reproducing and substantially building upon this work, I aim to illustrate the value of learning from top practitioners while also solving one of the most important problems in data science: how to be methodical.
 
-Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost, and outcomes reliability. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
+Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost, and outcomes. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
 
-The project is applied to the popular "Titanic - Machine Learning from Disaster" Kaggle competition.
+The project is applied to the popular "Titanic - Machine Learning from Disaster" Kaggle competition and can applied generally to a wide array of data science problems.
 
-Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.
+Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
 
 ---
 
@@ -34,6 +34,11 @@ The motivation behind this project is twofold:
 
 1. **Learning from the Best**: By reproducing work from top data scientists, we can gain valuable insights and understand the methodologies that lead to successful projects.
 2. **Framework Development**: Creating a robust framework for data science projects that can be applied to various datasets and problems, ensuring a structured approach to avoid common pitfalls.
+
+### Learning from the Best
+
+Why reinvent the wheel when you don't have to.  To mix metaphors, let's stand on the shoulders of giants and improve upon their work!
+
 
 ### Problems Related to Rushing into a Data Science Project
 
@@ -93,21 +98,25 @@ By addressing these issues through a structured approach, as demonstrated in thi
 1. ### Define the Problem
    If data science, big data, machine learning, predictive analytics, business intelligence, or any other buzzword is the solution, then what is the problem? Problems should precede requirements, requirements should precede solutions, solutions should precede design, and design should precede technology.
 
-2. ### Gather the Data
+   Kaggle clearly defined this problem for us.
+
+3. ### Gather the Data
    Chances are, the dataset(s) already exist somewhere. It may be external or internal, structured or unstructured, static or streamed, objective or subjective. The goal is to find and consolidate these datasets.
 
-3. ### Prepare Data for Consumption
+   Kaggle provided a clean dataset.
+
+5. ### Prepare Data for Consumption
    Data wrangling is a required process to turn “wild” data into “manageable” data. This includes data extraction, data cleaning, and preparing data for analysis by implementing data architectures, developing data governance standards, and ensuring data quality.
 
    Used 4 C's of Data Cleaning: Correcting, Completing, Creating, Converting.
 
-4. ### Perform Exploratory Data Analysis
+6. ### Perform Exploratory Data Analysis
    Deploy descriptive and graphical statistics to look for potential problems, patterns, classifications, correlations, and comparisons in the dataset. Data categorization is also important to select the correct hypothesis test or data model.
 
-5. ### Model Data
+7. ### Model Data
    Data modeling can either summarize the data or predict future outcomes. The dataset and expected results determine the algorithms available for use. Algorithms are tools that must be selected appropriately for the job.
 
-   Included generalized framework for model selection. Created baseline with simple back-of-the-envelope decision tree and ran the following models relevant to this problem:
+   This report includes a generalized framework for model selection. This report presents a baseline back-of-the-envelope calculated decision tree and compares resultes from the following models. This report also implementes the following techniques to improve model results: hyper-parameter tuning and recursive feature elimination.
 
    ```python
    MLA = [
@@ -153,10 +162,11 @@ By addressing these issues through a structured approach, as demonstrated in thi
    ]
 
 
-6. ### Validate and Implement Data Model
+8. ### Validate and Implement Data Model
 Test your model to ensure it hasn't overfit or underfit your dataset. Determine if your model generalizes well by validating it with a subset of data not used during training.
 
-Used hyperparmmeter tuning and model ensembling to improve performance.
+Cross validation and ensembling were used improve generalization.
+
 
 7. ### Optimize and Strategize
 Iterate through the process to make the model better. As a data scientist, your strategy should be to focus on recommendations and design while outsourcing developer operations and application plumbing.
