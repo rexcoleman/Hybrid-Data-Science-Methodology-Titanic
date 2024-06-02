@@ -8,15 +8,6 @@ Rushing into a data science project without a structured approach can lead to nu
 
 This project leverages the popular "Titanic - Machine Learning from Disaster" Kaggle competition and can applied generally to a wide array of data science problems.
 
-![Model results plot](Images/ModelMeasurementsTable.png)
-
-![Model results table](Images/ModelMeasurementsPlot.png)
-
-![Model bias comparison](Images/BiasIndicator.png)
-
-![Model variance comparison](Images/VarianceIndicator.png)
-
-
 Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
 
 ---
@@ -246,30 +237,28 @@ Follow these instructions to get a copy of the project up and running on your lo
 The project results include detailed analysis, model performance metrics, and visualizations that provide insights into the predictive power of the models used.
 
 
-| Model Name       | CV Test Accuracy | Precision | Recall |
-|------------------|----------|-----------|--------|
-| Support Vector Machine   | 0.827612     | 0.88      | 0.84   |
-| XGBClassifier | 0.826866 | 0.82      | 0.78   |
-| NuSVC | 0.75  | 0.77      | 0.73   |
-| RandomForestClassifier | 0.75  | 0.77      | 0.73   |
-| ExtraTreesClassifier| 0.75  | 0.77      | 0.73   |
-| DecisionTreeClassifier | 0.75  | 0.77      | 0.73   |
-| GradientBoostingClassifier | 0.75  | 0.77      | 0.73   |
-| ExtraTreeClassifier | 0.75  | 0.77      | 0.73   |
-| AdaBoostClassifier | 0.75  | 0.77      | 0.73   |
-| BaggingClassifier | 0.75  | 0.77      | 0.73   |
-| GaussianProcessClassifier | 0.75  | 0.77      | 0.73   |
-| KNeighborsClassifier | 0.75  | 0.77      | 0.73   |
-| QuadraticDiscriminantAnalysis | 0.75  | 0.77      | 0.73   |
-| RidgeClassifierCV | 0.75  | 0.77      | 0.73   |
-| LinearDiscriminantAnalysis | 0.75  | 0.77      | 0.73   |
-| LinearSVC | 0.75  | 0.77      | 0.73   |
-| LogisticRegressionCV | 0.75  | 0.77      | 0.73   |
-| GaussianNB | 0.75  | 0.77      | 0.73   |
-| BernoulliNB | 0.75  | 0.77      | 0.73   |
-| SGDClassifier | 0.75  | 0.77      | 0.73   |
-| Perceptron | 0.75  | 0.77      | 0.73   |
+![Model results table](Images/ModelMeasurementsPlot.png)
 
+![Model results plot](Images/ModelMeasurementsTable.png)
+
+![Model bias comparison](Images/BiasIndicator.png)
+
+![Model variance comparison](Images/VarianceIndicator.png)
+
+
+## Observations:
+1. The Bagging Classifier model produced the highest Kaggle accuracy score: **0.78468**.
+2. The Bagging Classifier model performed better than the ensemble model Kaggle accuracy scores: **0.77511** (hard voting), **0.76555** (soft voting).
+3. The Bagging Classifier model appears to have the lowest variance compared to the other models.
+4. The Bagging Classifier model underperformed when compared to the [TensorFlow Decision Forest model](https://www.kaggle.com/code/rexcoleman/titanic-w-tensorflow-decision-forest-rex-copy) with a Kaggle accuracy score of **0.80143**.
+
+## Areas For Future Research:
+1. Why does the TensorFlow Decision Forest model outperform all models in this notebook?
+2. Why do several models in this notebook outperform the ensemble models? How can we improve the ensemble models?
+3. How can I speed up the ensemble / hyperparameter tuning code?
+4. What hyperparameters tuning can I use to improve performance?
+5. How are some of the submissions achieving 100% accuracy Kaggle scores?
+6) Find coorelation heat map code that doesn't require forcing Kaggle version control.
 
 ---
 
