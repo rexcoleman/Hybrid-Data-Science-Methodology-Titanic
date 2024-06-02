@@ -8,8 +8,6 @@ Rushing into a data science project without a structured approach can lead to nu
 
 This project leverages the popular "Titanic - Machine Learning from Disaster" Kaggle competition and can applied generally to a wide array of data science problems.
 
-Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
-
 ![Model results plot](Images/TitanicResultsPlot.png)
 
 ![Model results table](Images/TitanicResultsTable.png)
@@ -18,6 +16,8 @@ Thank you for visiting my repository. I hope this project inspires you to implem
 
 ![Model variance comparison](Images/VarianceComparison.png)
 
+
+Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
 
 ---
 
