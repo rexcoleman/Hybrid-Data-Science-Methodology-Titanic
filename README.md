@@ -10,6 +10,15 @@ The project is applied to the popular "Titanic - Machine Learning from Disaster"
 
 Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
 
+![Screenshot of the feature](Images/TitanicResultsPlot.png)
+
+![Screenshot of the feature](Images/TitanicResultsTable.png)
+
+![Screenshot of the feature](Images/BiasComparison.png)
+
+![Screenshot of the feature](Images/VarianceComparison   .png)
+
+
 ---
 
 ## Table of Contents
