@@ -12,6 +12,8 @@ Thank you for visiting my repository. I hope this project inspires you to implem
 
 ![Screenshot of the feature](Images/TitanicResultsPlot.png)
 
+![Screenshot of the feature](Images/TitanicResultsTable.png)
+
 
 ---
 
