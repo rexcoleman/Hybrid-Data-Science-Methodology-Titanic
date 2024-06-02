@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Welcome to my Framework for Solving Data Science Problems repository. This repository showcases a project that not only demonstrates my data science skills but also outlines a comprehensive framework for solving data science problems. The project is inspired by one of the most popular notebooks on Kaggle, leveraging best-in-class methodologies to create a reliable foundation for solving data science problems. By reproducing and substantially building upon this work, I aim to illustrate the value of learning from top practitioners while also solving one of the most important problems in data science: how to be methodical.
+Welcome to my Framework for Solving Data Science Problems repository. This repository provides a comprehensive framework for solving data science problems. The project builds upon one of the most popular [Kaggle notebooks](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy), leveraging best-in-class methodologies to create a reliable foundation for solving data science problems. By reproducing and substantially building upon this work, I aim to illustrate the value of learning from top practitioners while also solving one of the most important problems in data science: how to be methodical.
 
 Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost, and outcomes. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
 
