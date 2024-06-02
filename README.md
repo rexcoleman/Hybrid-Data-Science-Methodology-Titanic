@@ -241,9 +241,11 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model results plot](Images/ModelMeasurementsTable.png)
 
-![Model bias comparison](Images/BiasIndicator.png)
+![Model bias indicator](Images/BiasIndicator.png)
 
-![Model variance comparison](Images/VarianceIndicator.png)
+![Model variance indicator](Images/VarianceIndicator.png)
+
+![Model variance indicator](Images/BiasVariancePlot.png)
 
 
 ## Observations:
