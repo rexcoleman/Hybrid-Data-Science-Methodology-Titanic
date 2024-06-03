@@ -239,13 +239,24 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model results table](Images/ModelMeasurementsPlot.png)
 
+Our top four models (test accuracy) are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting. As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
+
 ![Model results plot](Images/ModelMeasurementsTable.png)
 
-![Model bias indicator](Images/BiasIndicator.png)
-
-![Model variance indicator](Images/VarianceIndicator.png)
-
 ![Model variance indicator](Images/BiasVariancePlot.png)
+
+
+
+We can potentially improve model bias with: 
+- Use a larger neural network
+- Train longer
+- Use better optimization algorithms, e.g. momemtum, RMSProp, Adam
+- Search for better architecture/hyperparameters, e.g. RNN, CNN
+
+We can potentially improve model variance with: 
+- More data
+- Regularization, e.g. LS, droppout, data augmentation
+- Search for better architecture/hyperparameters, e.g. RNN, CNN
 
 
 ## Observations:
