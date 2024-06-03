@@ -1,4 +1,4 @@
-# Reproducing Excellence: A Framework for Solving Data Science Problems
+# A Framework for Solving Data Science Problems
 
 ## Executive Summary
 
