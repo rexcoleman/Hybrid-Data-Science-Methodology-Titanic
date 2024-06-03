@@ -299,7 +299,7 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 
 ## Contact
 
-If you have any questions or want to connect, feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/yourprofile) or [email](mailto:youremail@example.com).
+If you have any questions or want to connect, feel free to reach out to me via [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/rexcoleman/)) or [email](rexcoleman@gmail.com).
 
 ---
 
