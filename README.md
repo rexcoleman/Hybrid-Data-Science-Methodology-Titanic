@@ -6,7 +6,7 @@ Welcome to my Framework for Solving Data Science Problems. This repository provi
 
 Rushing into a data science project without a structured approach can lead to numerous problems, which can severely impact project success, cost, and outcomes. This project addresses these issues by implementing a well-defined framework and best practices ensuring thorough problem understanding, effective data preprocessing, and robust model evaluation.
 
-Borrowing fron the giants of Agile, DevOps, and Lean Entrepreneurship, we are leveragine the concept of 'shifting left' to support a more flexible and adaptive development process, facilitating faster delivery of high-quality data science solutions that align with business needs.
+Borrowing fron the giants of Agile, DevOps, and Lean Entrepreneurship, we are leveragine the concept of ['shifting left'](https://en.wikipedia.org/wiki/Shift-left_testing) to support a more flexible and adaptive development process, facilitating faster delivery of high-quality data science solutions that align with business needs.
 
 This project applies the above concepts to the popular "Titanic - Machine Learning from Disaster" Kaggle competition and can applied generally to a wide array of data science problems.
 
