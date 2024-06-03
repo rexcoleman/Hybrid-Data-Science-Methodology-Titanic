@@ -239,7 +239,7 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model results table](Images/ModelMeasurementsPlot.png)
 
-Our top four models (test accuracy) are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting. As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
+Our top four models (test accuracy) are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting. 
 
 ![Model results plot](Images/ModelMeasurementsTable.png)
 
@@ -249,7 +249,7 @@ Defining variance as the spreaed between test error and train error.  Typically 
 
 ![Model variance indicator](Images/BiasVariancePlot.png)
 
-
+As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
 
 We can potentially improve model bias with: 
 - Use a larger neural network
