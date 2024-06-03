@@ -283,11 +283,10 @@ We can potentially improve model variance with:
 
 ## Areas For Future Research:
 1. Why does the TensorFlow Decision Forest model outperform all models in this notebook?
-2. Why do several models in this notebook outperform the ensemble models? How can we improve the ensemble models?
-3. How can I speed up the ensemble / hyperparameter tuning code?
-4. What hyperparameters tuning can I use to improve performance?
-5. How are some of the submissions achieving 100% accuracy Kaggle scores?
-6) Find coorelation heat map code that doesn't require forcing Kaggle version control.
+2. Why do several models in this notebook outperform the ensemble models? How can we improve the ensemble models?  When does ensembling shine?
+3. What hyperparameters tuning can I use to improve performance?
+4. How are some of the submissions achieving 100% accuracy Kaggle scores?
+5. Find coorelation heat map code that doesn't require forcing Kaggle version control.
 
 ---
 
