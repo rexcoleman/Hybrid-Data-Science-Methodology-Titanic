@@ -195,8 +195,7 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model results table](Images/ModelMeasurementsPlot.png)
 
-*Figure 1: Model Accuracy - This plot shows train, validate and test model accuracies in test accuracy order.  Note that the Baseline Decision  The top four models are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting.*
-
+*Figure 1: Model Accuracy - This plot shows train, validate and test model accuracies in test accuracy order.  The top four models (BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting) outperformed both hard and soft voting ensemble models.  The Baseline Handmade Decision Tree model several other models.*
 
 
 ![Model results plot](Images/ModelMeasurementsTable.png)
