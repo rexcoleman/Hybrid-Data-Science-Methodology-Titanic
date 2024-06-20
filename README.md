@@ -193,18 +193,18 @@ Follow these instructions to get a copy of the project up and running on your lo
 The project results include detailed analysis, model performance metrics, and visualizations that provide insights into the predictive power of the models used.
 
 
-![Model results table](Images/ModelMeasurementsPlot.png)
+![Model results table](img/ModelMeasurementsPlot.png)
 
 *Figure 1: Model Accuracy - This plot shows train, validate and test model accuracies in test accuracy order.  The top four models (BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting) outperformed both hard and soft voting ensemble models.  The Baseline Handmade Decision Tree model several other models.*
 
 
-![Model results plot](Images/ModelMeasurementsTable.png)
+![Model results plot](img/ModelMeasurementsTable.png)
 
 Defining avoidable bias as 1.0 - train accuracy.  1.0 is argeuably an unrealistic figure for human level error.  We can justify it given that over 250 submissions reported perfect accuracy scores.
 
 Defining variance as the spreaed between test error and train error.  Typically it is better to use the difference in dev errer (validation error) and training error.  In the case of our models, there is a wide margin between validation error and test error so we are including it in our variance error calculation.
 
-![Model variance indicator](Images/bias_variance_plot.png)
+![Model variance indicator](img/bias_variance_plot.png)
 
 As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
 
