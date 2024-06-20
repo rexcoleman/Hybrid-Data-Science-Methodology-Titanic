@@ -161,15 +161,6 @@ Reproducing high-quality work from leading data scientists provides several bene
 
 ---
 
-## Addressing the Objection of Copying Work
-
-While reproducing work might seem like copying, it is important to recognize the value of this practice:
-- **Educational Value**: Provides a hands-on learning experience, reinforcing theoretical knowledge.
-- **Skill Enhancement**: Helps in honing practical data science skills by working on real-world problems.
-- **Foundation for Innovation**: Enables building upon existing solutions to create improved or new methodologies.
-
----
-
 ## Technologies Used
 
 - **Programming Languages**: Python version 3.10.13
@@ -203,6 +194,8 @@ The project results include detailed analysis, model performance metrics, and vi
 
 
 ![Model results table](Images/ModelMeasurementsPlot.png)
+
+*Figure 1: Surveillance privacy bias vector - This image illustrates the surveillance privacy bias vector and how serveillance related terms in blue tend to be above the line and privacy related terms in orange tend to be below the line.*
 
 Our top four models (test accuracy) are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting. 
 
