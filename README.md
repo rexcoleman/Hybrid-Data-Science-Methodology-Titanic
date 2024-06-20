@@ -204,7 +204,7 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model variance indicator](img/bias_variance_plot.png)
 
-*Figure 3: Model Error Plot - This plot compates model error across multiple models. Variance is defined as the spreaed between test error and train error.  Typically it is better to use the difference in dev errer (validation error) and training error.  In the case of our models, there is a wide margin between validation error and test error so we are including it in our variance error calculation.*
+*Figure 3: Model Error Plot - This plot compates model error across multiple models. Bias error is defined as perfect accuracy minus train accuracy. Variance is defined as test error and train error.  Typically it is better to use the difference in dev errer (validation error) and training error.  In the case of our models, there is a wide margin between test error and validation error so I am including it in my variance error calculation.*
 
 
 As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
