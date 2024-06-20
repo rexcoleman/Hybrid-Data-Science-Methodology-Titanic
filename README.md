@@ -204,7 +204,7 @@ Defining avoidable bias as 1.0 - train accuracy.  1.0 is argeuably an unrealisti
 
 Defining variance as the spreaed between test error and train error.  Typically it is better to use the difference in dev errer (validation error) and training error.  In the case of our models, there is a wide margin between validation error and test error so we are including it in our variance error calculation.
 
-![Model variance indicator](Images/BiasVariancePlot.png)
+![Model variance indicator](Images/bias_variance_plot.png)
 
 As a general rule for model performance, we want to work on improving the greater error (bias or variance).  
 
