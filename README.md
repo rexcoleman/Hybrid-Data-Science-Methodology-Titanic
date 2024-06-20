@@ -12,6 +12,10 @@ This project applies the above concepts to the popular "Titanic - Machine Learni
 
 Thank you for visiting my repository. I hope this project inspires you to implement a structured approach to avoid common data science pitfalls.  I welcome comments: especially those that will help improve upon this concept.
 
+![Model results table](img/ModelMeasurementsPlot.png)
+
+*Figure 1: Model Accuracy - This plot shows train, validate and test model accuracies in Kaggle test accuracy order.  The top four models (BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting) outperformed both hard and soft voting ensemble models.  The Baseline Handmade Decision Tree model several other models.*
+
 ---
 
 ## Table of Contents
