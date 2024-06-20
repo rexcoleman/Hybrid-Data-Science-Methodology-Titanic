@@ -195,9 +195,9 @@ The project results include detailed analysis, model performance metrics, and vi
 
 ![Model results table](Images/ModelMeasurementsPlot.png)
 
-*Figure 1: Surveillance privacy bias vector - This image illustrates the surveillance privacy bias vector and how serveillance related terms in blue tend to be above the line and privacy related terms in orange tend to be below the line.*
+*Figure 1: Model Accuracy - This plot shows train, validate and test model accuracies in test accuracy order.  Note that the Baseline Decision  The top four models are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting.*
 
-Our top four models (test accuracy) are BaggineClassifier, BernoulliNB, XGBClassifier and EnsembleHardVoting. 
+
 
 ![Model results plot](Images/ModelMeasurementsTable.png)
 
