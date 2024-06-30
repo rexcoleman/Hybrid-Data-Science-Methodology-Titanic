@@ -1,4 +1,4 @@
-# A Framework for Solving Data Science Problems
+# Hybrid Data-Science Methodology Titanic
 
 ## Executive Summary
 
@@ -242,4 +242,6 @@ We can potentially improve model variance with:
 ## 6. References
 
 - **Original Kaggle Notebok**:
- - [Freeman, 2016, A Data Science Framework: To Achieve 99% Accuracy](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy) 
+    - [Freeman, 2016, A Data Science Framework: To Achieve 99% Accuracy](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy)
+- **Original Kaggle Notebok**:
+    - [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data) 
